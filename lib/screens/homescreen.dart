@@ -35,9 +35,32 @@ class HomeScreen extends StatelessWidget {
                       size: 30,
                       color: Colors.white,
                     ),
-                    
+                    Icon(
+                      Icons.notifications,
+                      size: 30,
+                      color: Colors.white,
+                    ),
                   ],
-                )
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Padding(
+                  padding: EdgeInsets.only(
+                    left: 3,
+                    bottom: 15,
+                  ),
+                  child: Text(
+                    'Hi, Programmers',
+                    style: TextStyle(
+                      fontSize: 25,
+                      fontWeight: FontWeight.w600,
+                      letterSpacing: 1,
+                      wordSpacing: 2,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
