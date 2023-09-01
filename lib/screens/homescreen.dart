@@ -118,6 +118,68 @@ class HomeScreen extends StatelessWidget {
                 ),
               ],
             ),
+          ),
+          const SizedBox(
+            height: 10,
+          ),
+          Padding(
+            padding: const EdgeInsets.only(
+              top: 20,
+              left: 15,
+              right: 15,
+            ),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Container(
+                      height: 180,
+                      width: 180,
+                      color: Colors.grey,
+                    ),
+                    const SizedBox(
+                      width: 15,
+                    ),
+                    Container(
+                      height: 180,
+                      width: 180,
+                      color: Colors.grey,
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(
+            height: 10,
+          ),
+          Padding(
+            padding: const EdgeInsets.only(
+              top: 5,
+              left: 15,
+              right: 15,
+            ),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Container(
+                      height: 180,
+                      width: 180,
+                      color: Colors.grey,
+                    ),
+                    const SizedBox(
+                      width: 15,
+                    ),
+                    Container(
+                      height: 180,
+                      width: 180,
+                      color: Colors.grey,
+                    ),
+                  ],
+                ),
+              ],
+            ),
           )
         ],
       ),
