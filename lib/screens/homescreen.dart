@@ -132,7 +132,7 @@ class HomeScreen extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    Container(
+                    Container(child: Image.asset(''),
                       height: 180,
                       width: 180,
                       color: Colors.grey,
