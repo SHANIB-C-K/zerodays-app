@@ -9,17 +9,39 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        //this is appbar widget
-        title: const Text(
-          //this is appbar title
-          'Zero Days',
-        ),
-      ),
-      body: const Center(
-        child: Text(
-          'homescreen',
-        ),
+      body: ListView(
+        children: [
+          Container(
+            padding: const EdgeInsets.only(
+              top: 5,
+              left: 15,
+              bottom: 10,
+            ),
+            decoration: const BoxDecoration(
+              color: Color(0xFF674AEF),
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(20),
+                bottomRight: Radius.circular(20),
+              ),
+            ),
+            child: const Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Icon(
+                      Icons.dashboard,
+                      size: 30,
+                      color: Colors.white,
+                    ),
+                    
+                  ],
+                )
+              ],
+            ),
+          ),
+        ],
       ),
     );
   }
