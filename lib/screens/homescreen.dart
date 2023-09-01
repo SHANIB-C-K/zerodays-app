@@ -132,7 +132,10 @@ class HomeScreen extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    Container(child: Image.asset(''),
+                    Container(
+                      child: Image.asset(
+                        'asset/images/c_programming.webp',
+                      ),
                       height: 180,
                       width: 180,
                       color: Colors.grey,
