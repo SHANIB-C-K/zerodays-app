@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
               bottom: 10,
             ),
             decoration: const BoxDecoration(
-              color: Color(0xFF674AEF),
+              color: Colors.black,
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(20),
                 bottomRight: Radius.circular(20),
@@ -33,12 +33,20 @@ class HomeScreen extends StatelessWidget {
                     Icon(
                       Icons.dashboard,
                       size: 30,
-                      color: Colors.white,
+                      color: Colors.yellow,
+                    ),
+                    Text(
+                      'ZeroDays',
+                      style: TextStyle(
+                        fontSize: 22,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.red,
+                      ),
                     ),
                     Icon(
                       Icons.notifications,
                       size: 30,
-                      color: Colors.white,
+                      color: Colors.yellow,
                     ),
                   ],
                 ),
@@ -57,13 +65,60 @@ class HomeScreen extends StatelessWidget {
                       fontWeight: FontWeight.w600,
                       letterSpacing: 1,
                       wordSpacing: 2,
-                      color: Colors.white,
+                      color: Colors.indigo,
                     ),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Text(
+                  'Welcome to "zerodays Programming"! 🚀🖥️ \nJoin our Telegram group to embark on an \nexciting journey into the world of programming. \nplatform to learn, share, and collaborate \n\n',
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: Colors.green,
+                  ),
+                ),
+                Text(
+                  'DEVELOPERS COMMUNITY FOR\n* Javascript\n* Python\n* Java \n* C \n* React \n* Flutter \n*C#',
+                  style: TextStyle(
+                    fontSize: 18,
+                    color: Colors.grey,
                   ),
                 ),
               ],
             ),
           ),
+          const SizedBox(
+            height: 20,
+          ),
+          const Padding(
+            padding: EdgeInsets.only(
+              top: 20,
+              left: 15,
+              right: 15,
+            ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  'Cources',
+                  style: TextStyle(
+                    fontSize: 23,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                Text(
+                  'See All',
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500,
+                    color: Colors.indigo,
+                  ),
+                ),
+              ],
+            ),
+          )
         ],
       ),
     );
