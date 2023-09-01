@@ -16,6 +16,11 @@ class HomeScreen extends StatelessWidget {
           'Zero Days',
         ),
       ),
+      body: const Center(
+        child: Text(
+          'homescreen',
+        ),
+      ),
     );
   }
 }
