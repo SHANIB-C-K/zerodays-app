@@ -1,6 +1,7 @@
 //this file is main.dartf ile
 import 'package:flutter/material.dart';
 import 'package:zerodays/screens/homescreen.dart';
+import 'package:zerodays/screens/splashscreen.dart';
 
 void main(List<String> args) {
   //main function created
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         //theme indigo color set
         primarySwatch: Colors.indigo,
       ),
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }
