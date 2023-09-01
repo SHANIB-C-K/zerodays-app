@@ -10,7 +10,9 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        //this is appbar widget
         title: const Text(
+          //this is appbar title
           'Zero Days',
         ),
       ),
