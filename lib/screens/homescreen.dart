@@ -136,16 +136,19 @@ class HomeScreen extends StatelessWidget {
                       child: Image.asset(
                         'asset/images/c_programming.webp',
                       ),
-                      height: 180,
-                      width: 180,
+                      height: 155,
+                      width: 155,
                       color: Colors.grey,
                     ),
                     const SizedBox(
                       width: 15,
                     ),
                     Container(
-                      height: 180,
-                      width: 180,
+                      child: Image.asset(
+                        'asset/images/python.webp',
+                      ),
+                      height: 155,
+                      width: 155,
                       color: Colors.grey,
                     ),
                   ],
@@ -167,23 +170,32 @@ class HomeScreen extends StatelessWidget {
                 Row(
                   children: [
                     Container(
-                      height: 180,
-                      width: 180,
+                      child: Image.asset(
+                        'asset/images/java.png',
+                      ),
+                      height: 155,
+                      width: 155,
                       color: Colors.grey,
                     ),
                     const SizedBox(
                       width: 15,
                     ),
                     Container(
-                      height: 180,
-                      width: 180,
+                      child: Image.asset(
+                        'asset/images/node-js-512.webp',
+                      ),
+                      height: 155,
+                      width: 155,
                       color: Colors.grey,
                     ),
                   ],
                 ),
               ],
             ),
-          )
+          ),
+          SizedBox(
+            height: 20,
+          ),
         ],
       ),
     );

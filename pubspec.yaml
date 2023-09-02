@@ -62,6 +62,10 @@ flutter:
   assets:
    - asset/images/zerodays.jpg
    - asset/images/c_programming.webp
+   - asset/images/java.png
+   - asset/images/js.png
+   - asset/images/python.webp
+   - asset/images/node-js-512.webp
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
